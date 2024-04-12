@@ -5,9 +5,12 @@ This repository contains two machine learning models and is populated with alrea
 1. e3liagse_prediction.py predicts candidate E3 ligases for compounds.
 2. e3binder_prediction.py predicts if a compound is E3-binder or non-binder.
 
-The required packages with version numbers are listed in requirements.txt. 
+# Installing required packages
 
-To run the models, locate the src folder via terminal and type for instance 'python e3liagse_prediction.py'
+The required packages with version numbers are listed in requirements.txt. Prior to this, please consider creating new python (conda) environment to avoid clashes with previously installed packages.
+
+# How to run the model
+To run the models, locate the src folder via terminal and type for instance 'python e3liagse_prediction.py'. The file to be predicted is located in 'input' folder of both models. 
 
 The models are trained with several ML-algorithms such as xgboost, random forest, naive bayes, linear regression, lightgbm and decision trees. The performance of each model is shown below.
 
