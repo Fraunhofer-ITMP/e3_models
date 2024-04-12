@@ -7,4 +7,4 @@ This repository contains two machine learning models and is populated with alrea
 
 The required packages with version numbers are listed in requirements.txt. 
 
-![Model Performance for different ML-algorithms](https://github.com/Fraunhofer-ITMP/mpox-kg/blob/main/data/export/KG_stat.png)
+![Model Performance for different ML-algorithms](auc_roc_curve.png)
