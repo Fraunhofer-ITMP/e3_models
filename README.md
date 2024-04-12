@@ -7,4 +7,10 @@ This repository contains two machine learning models and is populated with alrea
 
 The required packages with version numbers are listed in requirements.txt. 
 
-![Model Performance for different ML-algorithms](auc_roc_curve.png)
+The models are trained with several ML-algorithms such as xgboost, random forest, naive bayes, linear regression, lightgbm and decision trees. The performance of each model is shown below.
+
+![Model Performance for different ML-algorithms](model_performance.png)
+
+The AUC-ROC curves of two best performing models are shown below.
+
+![AUC-ROC curve](auc_roc_curve.png)
