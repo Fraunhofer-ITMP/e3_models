@@ -5,9 +5,12 @@ This repository contains two machine learning models and is populated with alrea
 1. e3liagse_prediction.py predicts candidate E3 ligases for compounds.
 2. e3binder_prediction.py predicts if a compound is E3-binder or non-binder.
 
-# Installing required packages
-
-The required packages with version numbers are listed in requirements.txt. Prior to this, please consider creating new python (conda) environment to avoid clashes with previously installed packages. To install the packages, locate the e3_models folder via terminal and type 'pip install -r requirements.txt'
+# Environment set up
+    git clone https://github.com/Fraunhofer-ITMP/e3_models.git
+    cd e3_models
+    conda create --name=e3model python=3.9
+    conda activate e3model
+    pip install -r requirements.txt
 
 # How to run the model
 To run the models, locate the src folder via terminal and type for instance 'python e3liagse_prediction.py'. The file to be predicted is located in 'input' folder of both models. 
